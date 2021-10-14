@@ -1,4 +1,4 @@
-package dmacc.repository;
+package bills.repository;
 
 /**
  * @author kevin.cook - Kevin Cook
@@ -8,8 +8,8 @@ package dmacc.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import dmacc.beans.Contact;
+import bills.beans.PayingInfo;
 
-public interface ContactRepository extends JpaRepository<Contact, Long>{
+public interface BillsRepository extends JpaRepository<PayingInfo, Long>{
 
 }

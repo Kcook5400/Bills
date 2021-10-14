@@ -1,10 +1,11 @@
-package dmacc.controller;
+package bills.controller;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import dmacc.beans.Address;
-import dmacc.beans.Contact;
+import bills.beans.BillingInfo;
+import bills.beans.PayingInfo;
+import java.time.LocalDate;
 
 @Configuration
 /**
@@ -15,17 +16,14 @@ import dmacc.beans.Contact;
 public class BeanConfiguration {
 	
 	@Bean
-	public Contact contact() {
-		Contact bean = new Contact("Eric Carle");
-		//bean.setName("Dr. Seuss");
-		//bean.setPhone("555-555-0123");
-		//bean.setRelationship("friend");
+	public PayingInfo payer() {
+		PayingInfo bean = new PayingInfo("Kristi");
 		return bean;
 	}
 	
 	@Bean
-	public Address adress() {
-		Address bean = new Address("123 main Street", "Des Moines","IA");
+	public BillingInfo bill() {
+		BillingInfo bean = new BillingInfo("Cell Phone", 145.08, LocalDate.now());
 				return bean;
 		
 	}

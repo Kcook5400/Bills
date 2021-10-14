@@ -8,11 +8,11 @@
 		<version>2.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>dmacc</groupId>
-	<artifactId>SpringContacts</artifactId>
+	<groupId>Bills</groupId>
+	<artifactId>Bills</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringContacts</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Bills</name>
+	<description>Week 8 Lab</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>

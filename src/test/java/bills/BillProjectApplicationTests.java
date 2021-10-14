@@ -1,10 +1,10 @@
-package dmacc;
+package bills;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringContactsApplicationTests {
+class BillProjectTests {
 
 	@Test
 	void contextLoads() {
